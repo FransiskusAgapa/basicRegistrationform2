@@ -10,7 +10,11 @@
     </div>
     <div id="content-box">
       <div id="inner-content=box">
-        <div id="first-last-name-box">
+        <div
+          id="first-last-name-box"
+          onmouseover="addShadow(this)"
+          onmouseout="removeShadow(this)"
+        >
           <p>
             First name*:
             <input type="text" name="first_name" placeholder="first name" />
@@ -20,7 +24,11 @@
             <input type="text" name="last_name" placeholder="last name" />
           </p>
         </div>
-        <div id="birthday-gender-box">
+        <div
+          id="birthday-gender-box"
+          onmouseover="addShadow(this)"
+          onmouseout="removeShadow(this)"
+        >
           <p>
             Birthday:
             <input type="date" name="Date" placeholder="mm/dd/yyyy" />
@@ -33,7 +41,11 @@
           <input type="radio" name="NoSay" value="normal" id="no-say" />
           <label for="no-say">Prefer not to say</label>
         </div>
-        <div id="user-email-pass-box">
+        <div
+          id="user-email-pass-box"
+          onmouseover="addShadow(this)"
+          onmouseout="removeShadow(this)"
+        >
           <p>
             Email:
             <input type="text" name="email" placeholder="email" />
@@ -43,11 +55,19 @@
             <input type="password" name="Password" />
           </p>
         </div>
-        <div id="description-box">
+        <div
+          id="description-box"
+          onmouseover="addShadow(this)"
+          onmouseout="removeShadow(this)"
+        >
           <p>Description about myself:</p>
           <textarea name="AboutMe" rows="4" cols="30"></textarea>
         </div>
-        <div id="flavor-box">
+        <div
+          id="flavor-box"
+          onmouseover="addShadow(this)"
+          onmouseout="removeShadow(this)"
+        >
           <p>
             Favorite Ice Cream Flavor:
             <select name="Flavor">
@@ -58,7 +78,11 @@
             </select>
           </p>
         </div>
-        <div id="check-text-box">
+        <div
+          id="check-text-box"
+          onmouseover="addShadow(this)"
+          onmouseout="removeShadow(this)"
+        >
           <div id="inner-check-text">
             <input type="checkbox" name="yes" id="yes" />
             <label for="yes"
@@ -67,12 +91,18 @@
           </div>
         </div>
         <div id="submit-box">
-          <input type="submit" value="submit" id="submit" />
+          <input
+            type="submit"
+            value="submit"
+            id="submit"
+            onclick="alert('The form is submitted to the cloud of imagination!')"
+          />
         </div>
         <div id="required-text">
           <p>*Indicates required field</p>
         </div>
       </div>
     </div>
+    <script src="./script.js"></script>
   </body>
 </html>
