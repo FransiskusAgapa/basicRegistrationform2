@@ -42,29 +42,35 @@
 #submit-box {
   border: 3px solid red;
   border-radius: 4px;
-  width: 500px;
+  width: 560px;
   display: flex;
   justify-content: space-evenly;
+  align-items: center;
 }
 
 #first-last-name-box {
   margin: 20px;
+  height: 50px;
 }
 
 #birthday-gender-box {
   margin: 20px;
+  height: 50px;
 }
 
 #user-email-pass-box {
   margin: 20px;
+  height: 50px;
 }
 
 #description-box {
   margin: 20px;
+  height: 50px;
 }
 
 #flavor-box {
   margin: 20px;
+  height: 50px;
 }
 
 #check-text-box {
@@ -82,4 +88,8 @@
   margin-left: 20px;
   margin-right: 20px;
   margin-bottom: 20px;
+}
+
+.shadow {
+  box-shadow: 4px 4px 4px;
 }
