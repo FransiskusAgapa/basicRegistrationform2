@@ -6,3 +6,4 @@ Work with
 - number
 - checkbox
 - date
+- submit
