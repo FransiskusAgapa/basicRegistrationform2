@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+  font-family: "Times New Roman", Times, serif;
+}
+
+/* header box */
+#header-box {
+  border: 2px solid red;
+  border-radius: 4px;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  color: white;
+  background-color: lightblue;
+  border: none;
+}
+
+#content-box {
+  display: flex;
+  justify-content: center;
+  background-color: lightgray;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 4px;
+}
+
+#inner-content-box {
+  /* style here */
+}
+
+#first-last-name-box,
+#birthday-gender-box,
+#user-email-pass-box,
+#description-box,
+#flavor-box,
+#check-text-box,
+#required-text,
+#submit-box {
+  border: 3px solid red;
+  border-radius: 4px;
+  width: 500px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#first-last-name-box {
+  margin: 20px;
+}
+
+#birthday-gender-box {
+  margin: 20px;
+}
+
+#user-email-pass-box {
+  margin: 20px;
+}
+
+#description-box {
+  margin: 20px;
+}
+
+#flavor-box {
+  margin: 20px;
+}
+
+#check-text-box {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#submit-box {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 1px;
+}
+
+#required-text {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}

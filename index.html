@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>RegistrationForm</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div id="header-box">
+      <h1 id="header">Made-up Registration Form</h1>
+    </div>
+    <div id="content-box">
+      <div id="inner-content=box">
+        <div id="first-last-name-box">
+          <p>
+            First name*:
+            <input type="text" name="first_name" placeholder="first name" />
+          </p>
+          <p>
+            Last name*:
+            <input type="text" name="last_name" placeholder="last name" />
+          </p>
+        </div>
+        <div id="birthday-gender-box">
+          <p>
+            Birthday:
+            <input type="date" name="Date" placeholder="mm/dd/yyyy" />
+          </p>
+          <p id="gender-text">Gender:</p>
+          <input type="radio" name="Male" value="normal" id="male" />
+          <label for="male">Male</label>
+          <input type="radio" name="Female" value="normal" id="female" />
+          <label for="female">Female</label>
+          <input type="radio" name="NoSay" value="normal" id="no-say" />
+          <label for="no-say">Prefer not to say</label>
+        </div>
+        <div id="user-email-pass-box">
+          <p>
+            Email:
+            <input type="text" name="email" placeholder="email" />
+          </p>
+          <p>
+            Password:
+            <input type="password" name="Password" />
+          </p>
+        </div>
+        <div id="description-box">
+          <p>Description about myself:</p>
+          <textarea name="AboutMe" rows="5" cols="35"></textarea>
+        </div>
+        <div id="flavor-box">
+          <p>
+            Favorite Ice Cream Flavor:
+            <select name="Flavor">
+              <option>Choose Flavor</option>
+              <option>Melted Chocolate</option>
+              <option>Vanilla</option>
+              <option>Coffee Mint</option>
+            </select>
+          </p>
+        </div>
+        <div id="check-text-box">
+          <div id="inner-check-text">
+            <input type="checkbox" name="yes" id="yes" />
+            <label for="yes"
+              >I would like to receive registration confirmation</label
+            >
+          </div>
+        </div>
+        <div id="submit-box">
+          <input type="submit" value="submit" id="submit" />
+        </div>
+        <div id="required-text">
+          <p>*Indicates required field</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
